@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cast or Cap?</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/@farcaster/auth@latest/dist/index.umd.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Cast or Cap?</h1>
+
+    <div id="login-section">
+      <button id="login-btn">Connect Farcaster</button>
+      <div id="user-info" style="display: none;"></div>
+    </div>
+
+    <div id="claim-form" style="display: none;">
+      <textarea id="claim-text" placeholder="Enter your bold claim here..."></textarea>
+      <button onclick="submitClaim()">Submit Claim</button>
+    </div>
+
+    <h2>🔥 Latest Claims</h2>
+    <div id="claims-feed"></div>
+
+    <h2>🏆 Leaderboard</h2>
+    <div id="leaderboard"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

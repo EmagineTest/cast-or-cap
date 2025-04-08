@@ -1,0 +1,11 @@
+{
+  "name": "Cast or Cap?",
+  "description": "Post wild claims. Vote Cast 🟣 or Cap 🧢. Prove it or not.",
+  "url": "https://your-app-url.vercel.app",
+  "icons": [
+    {
+      "src": "https://your-app-url.vercel.app/public/icon.png",
+      "type": "image/png"
+    }
+  ]
+}
